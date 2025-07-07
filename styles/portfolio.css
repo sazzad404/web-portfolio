@@ -1,15 +1,19 @@
-
 .plus-jakarta-sans-normal {
-  font-family: "Plus Jakarta Sans", sans-serif;
-  font-optical-sizing: auto;
-  font-style: normal;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
 }
+
 /* shared-style */
-.text-primary{
+.png-img {
+    width: 100px;
+}
+
+.text-primary {
     color: #FD6E0A;
 }
 
-.dark-2{
+.dark-2 {
     color: #474747;
 }
 
@@ -23,35 +27,40 @@
     border: none;
 }
 
-.section-title{
+.section-title {
     font-size: 35px;
     font-weight: bold;
     color: #181818;
 }
 
-.section-desciption{
+.section-desciption {
     font-size: 18px;
     color: #757575;
 }
 
-.secondary-background{
+.secondary-background {
     background-color: #FFF8F3;
 }
+
+.text-center {
+    text-align: center;
+}
+
 /* header */
-.header{
+.header {
     background-image: url(../media/pexels-jessbaileydesign-1119793.jpg);
     background-repeat: no-repeat;
 }
 
 /* nav-styles */
-nav{
+nav {
     display: flex;
     align-items: center;
     justify-content: space-between;
     margin: 50px 200px;
 }
 
-.nav-title{
+.nav-title {
     font-weight: 800;
     font-size: 45px;
 }
@@ -61,10 +70,11 @@ nav ul {
     align-items: center;
 }
 
-nav ul li{
+nav ul li {
     list-style: none;
-    margin-right:51px ;
+    margin-right: 51px;
 }
+
 nav li a {
     text-decoration: none;
     font-size: 20px;
@@ -78,6 +88,7 @@ nav li a {
     justify-content: space-between;
     margin: 0 35px 0 200px;
 }
+
 .banner-content {
     max-width: 580px;
 }
@@ -87,7 +98,7 @@ nav li a {
     font-weight: 600;
 }
 
-.banner-titles{
+.banner-titles {
     font-weight: bold;
     font-size: 85px;
 }
@@ -95,24 +106,83 @@ nav li a {
 .banner-profile-picture {
     width: 580px;
 }
+
 /* main styles */
-main{
+main {
     max-width: 1140px;
     margin: 0 auto;
 }
 
+main section {
+    margin-top: 130px;
+    margin-bottom: 130px;
+}
+
 /* about-styles */
-.about{
+.about {
     border-radius: 10px;
     padding: 130px 150px;
     text-align: center;
-    margin-top:130px ;
+
 }
 
-.about-items{
+.about-items {
     display: flex;
     justify-content: space-around;
 }
-.item-description{
+
+.item-description {
     font-weight: 600;
+}
+
+/* skills section style */
+.skills-container {
+    display: flex;
+    gap: 24px;
+
+}
+
+.skill-description {
+    padding: 30px;
+}
+
+.skill {
+    padding: 30px;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+}
+
+/* resume section style */
+.resume-container {
+    display: flex;
+    gap: 24px;
+}
+
+.resume-download-cv {
+    margin-top: 50px;
+}
+
+/* footer style */
+footer {
+    padding: 130px 230px;
+
+    gap: 100px;
+}
+
+.footer-container {
+    display: flex;
+}
+
+.footer-column {
+    width: 50%;
+}
+
+footer input[type="text"], footer input[type="email"], footer textarea {
+    height: 64px;
+    border-radius: 5px;
+    background-color: white;
+    display: block;
+    width: 100%;
+    padding: 10px 20px;
+    margin-bottom: 24px;
+    border: none;
 }
