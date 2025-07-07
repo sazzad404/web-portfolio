@@ -1,0 +1,82 @@
+
+.plus-jakarta-sans-normal {
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+/* shared-style */
+.text-primary{
+    color: #FD6E0A;
+}
+
+.dark-2{
+    color: #474747;
+}
+
+.btn-primary {
+    background-color: #FD6E0A;
+    font-weight: bold;
+    color: white;
+    padding: 18px 35px;
+    border-radius: 5px;
+    font-size: 20px;
+    border: none;
+}
+/* header */
+.header{
+    background-image: url(../media/pexels-jessbaileydesign-1119793.jpg);
+    background-repeat: no-repeat;
+}
+
+/* nav-styles */
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 50px 200px;
+}
+
+.nav-title{
+    font-weight: 800;
+    font-size: 45px;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+}
+
+nav ul li{
+    list-style: none;
+    margin-right:51px ;
+}
+nav li a {
+    text-decoration: none;
+    font-size: 20px;
+    color: ;
+}
+
+/* banner-styles */
+
+.banner {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 35px 0 200px;
+}
+.banner-content {
+    max-width: 580px;
+}
+
+.banner-greetings {
+    font-size: 45px;
+    font-weight: 600;
+}
+
+.banner-titles{
+    font-weight: bold;
+    font-size: 85px;
+}
+
+.banner-profile-picture {
+    width: 580px;
+}
